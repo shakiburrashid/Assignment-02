@@ -295,13 +295,15 @@
       </div>
     </form>
   </main>
-  <footer class="m-auto flex justify-center items-center secondColor inter">
-    <div class="grid grid-cols-4 m-20 justify-center gap-x-30 ">
+  <footer class="m-auto flex justify-center items-center secondColor inter  || max-md:flex-col">
+    <div class="grid grid-cols-4 m-20 justify-center gap-x-30 || max-md:grid-cols-1">
       <div class="flex flex-col gap-5">
         <img class="w-[135px]" src="./assets/logo.png" alt="">
-        <p>Indulge your senses with the <br> beauty and fragrance of our fresh <br> flower shop. </p>
+        <p class="max-md:hidden">Indulge your senses with the <br> beauty and fragrance of our fresh <br> flower shop.
+        </p>
+        <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
       </div>
-      <ul class="flex flex-col gap-5">
+      <ul class="flex flex-col gap-5 || max-md:mt-3">
         <li class="cursor-pointer">Home</li>
         <li class="cursor-pointer">About Us</li>
         <li class="cursor-pointer">Blog</li>
@@ -315,7 +317,7 @@
         <li class="cursor-pointer">Terms of Service</li>
         <li class="cursor-pointer">Help Center</li>
       </ul>
-      <div class="flex w-9 h-10 gap-3">
+      <div class="flex w-9 h-10 gap-3 || max-md:mt-[10px]">
         <img class="cursor-pointer" src="./assets/icon-linkedin.png" alt="">
         <img class="cursor-pointer" src="./assets/icon-facebook.png" alt="">
         <img class="cursor-pointer" src="./assets/icon-twitter.png" alt="">
