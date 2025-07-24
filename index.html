@@ -277,14 +277,17 @@
     </section>
     <!-- Input Section -->
     <form class="mb-10 flex items-center justify-center" action="#">
-      <div class="bg-[url(./assets/news-letter-bg.png)] bg-cover bg-no-repeat h-[35rem] w-full">
-        <div class="flex flex-col items-center justify-center h-[35rem] inter gap-5">
-          <h1 class="text-5xl text-white noto-serif font-extrabold">
+      <div
+        class="bg-[url(./assets/news-letter-bg.png)] bg-cover bg-no-repeat h-[35rem] w-full || max-md:h-[15rem] max-md:w-[23rem] max-md:bg-cover">
+        <div class="flex flex-col items-center justify-center h-[35rem] inter gap-5 || max-md:h-[15rem] ">
+          <h1 class="text-5xl text-white noto-serif font-extrabold || max-md:text-xl max-md:font-bold">
             Join the colorful Bunch
           </h1>
-          <div class="flex items-center justify-center">
-            <input class="bg-white w-[640px] h-[50px] px-2 py-5" type="text" placeholder="Write email" />
-            <button class="bg-[#E95A08] w-[100px] h-[50px] text-white cursor-pointer">
+          <div class="flex items-center justify-center || max-md:text-[14px]">
+            <input class="bg-white w-[640px] h-[50px] px-2 py-5 || max-md:w-[200px] max-md:h-[20px]" type="text"
+              placeholder="Write email">
+            <button
+              class="bg-[#E95A08] w-[100px] h-[50px] text-white cursor-pointer || max-md:h-[40px] max-md:w-[80px]">
               Subscribe
             </button>
           </div>
